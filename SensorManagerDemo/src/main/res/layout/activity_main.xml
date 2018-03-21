@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.m1.test.MainActivity">
+
+    <TextView
+        android:id="@+id/g_sensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <TextView
+        android:id="@+id/dis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/g_sensor"
+        android:text="Hello World!" />
+
+    <TextView
+        android:id="@+id/o_sensor"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/dis"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <TextView
+        android:id="@+id/ois"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/o_sensor"
+        android:text="Hello World!" />
+
+    <TextView
+        android:id="@+id/m_sensor"
+        android:layout_below="@+id/ois"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <TextView
+        android:id="@+id/mis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m_sensor"
+        android:text="Hello World!" />
+
+    <TextView
+        android:id="@+id/gy_sensor"
+        android:layout_below="@+id/mis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <TextView
+        android:id="@+id/gyis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gy_sensor"
+        android:text="Hello World!" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_below="@id/gyis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start"/>
+
+</RelativeLayout>
